@@ -45,46 +45,31 @@ function getReply(total){
 }
 
 console.log(getReply(12))
+
+
+// Write a function that takes in a array of numbers as a parameter 
+// and returns the second largest number in the array
+function mergeSort(arr){
+    let sorted=arr.sort()
+   return sorted
+   
+}
+const arr=[1,2,20,19,31,12]
+console.log(sorted(mergeSort(arr[-2])))
+// Write a function that takes a string as a parameter and returns 
+// true if the string is a palindrome and false otherwise
+function palindrone(string){
+    const reversed=string.split('').reverse().join('')
+    if(reversed===string){
+        return string + " " + "is a palindrone"
+    }
+    else{
+        return string + " " + "is not a palindrone"
+    }
+}
+console.log(palindrone("mom"))
+console.log(palindrone("dad"))
+console.log(palindrone("Emma"))
+
+
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // for (x in numbers ){
-    //     let sum=0
-    //     for(let i=0;i<numbers.length;i++){
-    //         sum+=i
-    //         return sum
-           
-    //     }
-    //     if (sum>100){
-    //         return true
-    //     }
-    //     else{
-    //         return false
-    //     }
-           
-            
-    //     }
-    // }
-    // // const numbers=[12,60]
-    // console.log(checkNumbers([12,60]))
